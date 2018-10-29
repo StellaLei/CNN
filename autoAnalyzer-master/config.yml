@@ -1,0 +1,14 @@
+---
+ABSOLUTE_PATH:
+    #Journal file store path
+    JNL_STORE_PATH:     /remote/asepw_archive2/grid/autoAnalyzer/jnlMsgStorage
+    #Temp directory
+    TEMP_PATH:          /tmp
+
+RELATIVE_PATH:
+    #TFIDF analyzer
+    TFIDF_HOME_PATH:    aseAutoAnalyzer/TFIDF
+
+    #CNN analyzer
+    CNN_HOME_PATH:      aseAutoAnalyzer/CNN
+

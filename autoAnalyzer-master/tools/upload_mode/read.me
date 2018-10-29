@@ -1,0 +1,14 @@
+1: ./update_model_to_here.sh <train dri>/runs/1501742186/checkpoints 1500
+2: cp -r ./runs <your current code dir>/autoAnalyzer/aseAutoAnalyzer/CNN/
+3: vi <your current code dir>/autoAnalyzer/aseAutoAnalyzer/CNN/runs/checkpoints/checkpoint
+4: change model_checkpoint_path -> <your current code dir>/autoAnalyzer/aseAutoAnalyzer/CNN/runs/checkpoints/model-1
+5: python evaluate.py <your train data path>
+6: python upload_model_to_database.py
+for example
+1: ./update_model_to_here.sh /remote/aseqa_archive2/mayu/machine_learning/Tensorflow/machine_learning_train/autoanalyzer/runs/1501742186/checkpoints 1500
+2: cp -r ./runs /remote/aseqa_archive2/mayu/Git/autoAnalyzer/aseAutoAnalyzer/CNN/
+3: vi /remote/aseqa_archive2/mayu/Git/autoAnalyzer/aseAutoAnalyzer/CNN/checkpoint
+4: change model_checkpoint_path -> /remote/aseqa_archive2/mayu/Git/autoAnalyzer/aseAutoAnalyzer/CNN/runs/checkpoints/model-1
+5: python evaluate.py /remote/aseqa_archive2/mayu/machine_learning/Tensorflow/machine_learning_train/autoanalyzer/train/
+6: python upload_model_to_database.py
+

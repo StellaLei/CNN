@@ -1,0 +1,3 @@
+model_checkpoint_path: "/remote/asepw_archive2/grid/autoAnalyzer/gitAutoAnalyze/aseAutoAnalyzer/CNN/runs/checkpoints/model-1"
+#model_checkpoint_path: "/remote/asepw_archive2/grid/autoAnalyzer/gitAutoAnalyze/CNN/runs/checkpoints/model-1"
+#model_checkpoint_path: "/remote/aseqa_archive2/mayu/Git/autoAnalyzer/tools/upload_mode/runs/checkpoints/model-1"
